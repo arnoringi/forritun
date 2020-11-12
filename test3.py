@@ -1,12 +1,13 @@
-import math
+class Test:
+    def __init__(self):
+        self.x = 0
 
-num = int(input("num: "))
+class Derived_Test(Test):
+    def __init__(self):
+        self.y = 1
 
-while num != 'q':
-    num1 = num % 16
-    num2 = num // 16
+def main():
+    b = Derived_Test()
+    print(b.x,b.y)
 
-    print("Modulus:", num1)
-    print("Afgangur:", num2)
-    print()
-    num = int(input("num: "))
+main()

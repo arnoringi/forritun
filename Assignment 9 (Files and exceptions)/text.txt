@@ -1,2 +1,0 @@
-This is line.
-And second, longer.

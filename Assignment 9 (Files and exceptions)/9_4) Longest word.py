@@ -21,8 +21,8 @@ def find_longest(file_object):
 filename = input("Enter filename: ")
 file_object = open_file(filename)
 if file_object:
-  longest_word = find_longest(file_object)
-  print("Longest word is '{:s}' of length {:d}".format(longest_word, len(longest_word)))
-  file_object.close()
+    longest_word = find_longest(file_object)
+    print("Longest word is '{:s}' of length {:d}".format(longest_word, len(longest_word)))
+    file_object.close()
 else:
-  print("File not found")
+    print("File not found")

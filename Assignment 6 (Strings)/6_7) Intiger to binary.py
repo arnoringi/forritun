@@ -4,7 +4,7 @@ quotient = my_int
 remainder = 0
 bin_str = ''
 
-for index in range(7):
+for index in range(7): #8-bit binary
     remainder = quotient % 2
     quotient = quotient // 2
     if remainder == 0:

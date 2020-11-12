@@ -1,3 +1,4 @@
+# Ekki klárað
 def open_file(file_name):
     file_object = open(file_name, "r")
     return file_object
